@@ -1,3 +1,3 @@
 # Personal Site
 
-previously (and maybe still) hosted at: [https://pages.cs.wisc.edu/~trotman](https://pages.cs.wisc.edu/~trotman)
+previously (and maybe still) hosted at: [http://pages.cs.wisc.edu/~trotman](http://pages.cs.wisc.edu/~trotman)
