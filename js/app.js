@@ -17,4 +17,6 @@
 	}
 
 	run.$inject = ['$rootScope', '$location', '$cookieStore', '$http'];
+    function run($rootScope, $location, $cookieStore, $http) {
+    }      
 })();
