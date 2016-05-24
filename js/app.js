@@ -8,7 +8,7 @@
 	config.$inject = ['$routeProvider', '$locationProvider'];
 	function config($routeProvider, $locationProvider) {
 		$routeProvider
-		.when('/', {
+		.when('/bdb', {
 			controller: 'BDBController',
 			templateUrl: 'bdb/bdb.view.html',
 			controllerAs: 'vm'
