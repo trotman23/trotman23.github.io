@@ -320,21 +320,17 @@
     <div class="row">
       <div class="col-sm-4">
         <div class="project-image">
-          <img src="img/ffl-full.JPG" />
+          <a href="http://ffa506-env.us-west-2.elasticbeanstalk.com/" target="_blank"><img src="img/ffl-full.JPG" /></a>
         </div>
       </div>
       <div class="col-sm-8">
-        <h2>ESPN Fantasy Football Statistics</h2>
-		<p><b>NOTE: This project was originally developed by myself. I ended up proposing it for my Software Engineering class, and it was bid upon and green-lit for the current semester. So I am working with a team of students to create something very similar to this, and more this semester. I will update links to versions as they are developed throughout the semester.</b></p>
-        <p><b>Brief Description: </b>This is a personal project that I have been working on in my spare time. It is a Fantasy Football application that calculates a bunch of statistics, creates personal power rankings, and creates personalized statistics about your fantasy team. It is different from other fantasy football applications in that it is all centered around an individual leage. My friends and I use it in our fantasy football league. It is currently exclusive to one league, and for ESPN fantasy leagues.</p>
-        <p><b>How it works:</b> Since <a href="http://espn.go.com/static/apis/devcenter/blog/read/publicretirement.html" target="_blank">ESPN shut down their API in 2014</a>, I found it rather difficult to be able to grab personalized information about our fantasy football league. In short, I wrote a web crawler (using <a href="https://htmlagilitypack.codeplex.com/" target="_blank">HtmlAgilityPack</a> and HTTP GETs) that crawls the pages of our fantasy football league, grabs statistics, and inserts them into a MySql database. The application then uses this data to calculate various statistics and rankings. After studying the structure of the espn fantasy football leagues, I realized that this would be possible (but not easy) to do on a large scale, as each league is identified by a LeagueID which is passed to their application as a url parameter. During my inspection of the espn fantasy applicatio structure, I also was able to figure out how various AJAX queries were made, what information they returned, and how I could index all of that data into my database by running a single report a week. Run run this report after they update their final fantasy statistics each week. One part of the project that I rather enjoyed creating was my personal power ranking algorithm, which factored in a number of statistics to truly determine who was currently the best team in the league.</p>
-        <p>Currently, I am working on a user poll, which will rank teams on a weekly basis based on user voting.</p>
-        <p>I am treating this current season (Fall 2015) as an 'alpha' phase of the project, and making sure that my application will work for one league. Eventually, I would like to be able to open this up to the public, and let anyone create a profile for all of their ESPN leagues. I am consistently getting feedback from members of the league on things to implement, bugs to fix, and additional features.</p>  
-        
-        <p><b>At this time, I would not like the general public to be able to access this site, so I am not including a link to it. However, if you would like to see the project as it is being developed (and often at times, broken), please send me an email at <a href="mailto:trotman23@gmail.com">trotman23@gmail.com</a> and I can send you a link and login credentials to a test account.</b></p>
-		<a href="https://github.com/trotman23/FFL" target="_blank">View the code on github</a>
+        <h2>Fantasy Football Analyst (FFA)</h2>
+        <p><b>Brief Description: </b>I pitched the idea of a fantasy football analysis tool for CS506: Software Engineering, and it was green lit for development. Myself and 5 other classmates worked on this application. The tool is live on AWS:  <a href="http://ffa506-env.us-west-2.elasticbeanstalk.com/" target="_blank">http://ffa506-env.us-west-2.elasticbeanstalk.com<a>. To log in, use the following credentials:<br />
+        <b>Email:</b> team3@wisc.edu<br />
+        <b>Password:</b> password</p>
+		<a href="https://github.com/trotman23/FFA506" target="_blank">View the git repo on github</a>
         <div class="tags">
-          Tags: <span class="tag">MVC</span><span class="tag">C#</span><span class="tag">.NET</span><span class="tag">HTTP</span><span class="tag">HtmlAgilityPack</span><span class="tag">EntityFramework</span><span class="tag">MySql</span>
+          Tags: <span class="tag">Spring MVC</span><span class="tag">Java</span><span class="tag">AngularJS 1</span><span class="tag">jsoup</span><span class="tag">JDBC</span><span class="tag">MySQL</span>
         </div>
       </div>
     </div>
@@ -364,40 +360,6 @@
     </div>
     </div>
   </div>
-    <!--<div class="pad-section proj4">
-    <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="project-image">
-          <img src="http://placehold.it/200x150" />
-        </div>
-      </div>
-      <div class="col-sm-8">
-        <h2>Course Packet Shopping Cart</h2>
-        <p><b>Brief Description: </b>NOT SURE IF I WANT TO INCLUDE THIS. DECIDE ON SUNDAY IF IT SHOULD BE INCLUDED OR NOT</p>
-        
-        <a href="#">Link to project (if public)</a>
-      </div>
-    </div>
-    </div>
-  </div>
-  <div class="pad-section proj1">
-    <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="project-image">
-          <img src="http://placehold.it/200x150" />
-        </div>
-      </div>
-      <div class="col-sm-8">
-        <h2>Update Fall 2013</h2>
-        <p><b>Brief Description: </b>NOT SURE IF I WANT TO INCLUDE THIS. DECIDE ON SUNDAY IF IT SHOULD BE INCLUDED OR NOT</p>
-        
-        <a href="#">Link to project (if public)</a>
-      </div>
-    </div>
-    </div>
-  </div>-->
     <div class="pad-section proj2">
     <div class="container">
     <div class="row">
@@ -437,6 +399,25 @@
         <a href="http://asme.slc.engr.wisc.edu/" target="_blank">ASME Madison Homepage</a>
         <div class="tags">
           Tags: <span class="tag">PHP</span><span class="tag">Bootstrap</span><span class="tag">Tablesorter.js</span>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="pad-section proj3">
+    <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="project-image">
+          <a href="/bdb"><img src="img/asme-full.PNG" /></a>
+        </div>
+      </div>
+      <div class="col-sm-8">
+        <h2>BreweryDB API</h2>
+        <p><b>Brief Description: </b>I wanted to make some sort of application consuming this API, so it's still a work in progress, but i've been playing around with it and AngularJS 1</p>
+        <p><a href="/bdb">Link</a></p>
+        <div class="tags">
+          Tags: <span class="tag">BreweryDB</span><span class="tag">Bootstrap</span><span class="tag">Angular</span>
         </div>
       </div>
     </div>
@@ -582,100 +563,7 @@
     </div>
     </div>
   </div>
-    <div class="pad-section proj4">
-    <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="project-image">
-          <img src="http://placehold.it/200x150" />
-        </div>
-      </div>
-      <div class="col-sm-8">
-        <h2>Barton Button Flap Ski for High-speed manufacturing</h2>
-        <p><b>Brief Description: </b>This was a 3D SLA printed ski that I designed while working at Kimberly-Clark. The concept of it is that there are little slits in the ski, that blow out a constant stream of air. This air help the flaps of a pad stay in the proper position before they become folded.</p>
-      </div>
-    </div>
-    </div>
-  </div>
-  <div class="pad-section proj1">
-    <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="project-image">
-          <img src="http://placehold.it/200x150" />
-        </div>
-      </div>
-      <div class="col-sm-8">
-        <h2>Pneumatic Flap Tacker</h2>
-        <p><b>Brief Description: </b>This is a machine component that I designed, that is attached an outer protective lining to the sides of a pad when it is on a high speed manufacturing line.</p>
-        
-        <a href="#">Link to project (if public)</a>
-      </div>
-    </div>
-    </div>
-  </div>
-    <div class="pad-section proj2">
-    <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="project-image">
-          <img src="http://placehold.it/200x150" />
-        </div>
-      </div>
-      <div class="col-sm-8">
-        <h2>Bag Maker Grade Change Parts</h2>
-        <p><b>Brief Description: </b>I designed a series of additional parts that were placed on a bag maker. These parts allowed for quick and easy grade changes between different size bags.</p>
-      </div>
-    </div>
-    </div>
-  </div>
-  <div class="pad-section proj3">
-    <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="project-image">
-          <img src="http://placehold.it/200x150" />
-        </div>
-      </div>
-      <div class="col-sm-8">
-        <h2>Drive Gear Reduction System Design</h2>
-        <p><b>Brief Description: </b>For ME352: Machine Components and Design, myself and 2 other classmates designed a gear reducer. This process involved selecting bearings, gears, shafts, and a power supply. We performed fatigue and stress calculationis on all components.</p>
-      </div>
-    </div>
-    </div>
-  </div>
-    <div class="pad-section proj4">
-    <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="project-image">
-          <img src="http://placehold.it/200x150" />
-        </div>
-      </div>
-      <div class="col-sm-8">
-        <h2>Adhesive Nozzle Quick Change Tool</h2>
-        <p><b>Brief Description: </b>I designed a tool for changing out and replacing adhesive nozzle tips on case packagers. This tool allowed for easy set up, and got rid of the need to manually re-align adhesive tips.</p>
-      </div>
-    </div>
-    </div>
-  </div>
-  <div class="pad-section proj1">
-    <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="project-image">
-          <img src="http://placehold.it/200x150" />
-        </div>
-      </div>
-      <div class="col-sm-8">
-        <h2>Bagger Spreader Fingers</h2>
-        <p><b>Brief Description: </b>I designed spreader fingers for a product bagger that had air hoses on the tips of the fingers. These air hoses allowed for all sizes and grades of bags to be used, and remove room for human error in grade change processes. The hoses used to be on a different part of the machine, and would have to be adjusted for each size bag that the line was running</p>
-      </div>
-    </div>
-    </div>
-  </div>
   <!-- end meche projects -->
-  <!-- /fifth section -->
   
   <!-- Contact -->
   <div id="contact">
@@ -694,5 +582,7 @@
   </div>
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/angular.min.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
