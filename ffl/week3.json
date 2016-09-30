@@ -1,0 +1,133 @@
+{
+    "ranks": [
+        {
+            "rank": 1,
+            "teamName": "8th Year Senior",
+            "owner": "Joey Bauer",
+            "teamId": 1,
+            "wins": 2,
+            "losses": 1,
+            "theme": "Michelob Golden Draft Light",
+            "text": "Bouncing back after last weeks down week, Joey's team is starting to look legitimate. As legitimite as ice cold always smooth Michelob Golden Draft Light&trade;. Obviously the best domestic beer.",
+            "imgUrl": "http://trotman23.github.io/ffl/img/mich-golden.jpg"
+        },
+        {
+            "rank": 2,
+            "teamName": "The Implication",
+            "owner": "KC Faulkner",
+            "teamId": 2,
+            "wins": 2,
+            "losses": 1,
+            "theme": "Bud Light",
+            "text": "Just as Bud Light is the #1 selling beer in America (besides the lesser know best beer, Michelob Golden Draft Light&trade;, KC's team has shown that it can compete. If you/re still in denial about her making roster decisions for Brenda last year, you're an idiot.",
+            "imgUrl": ""
+        },
+        {
+            "rank": 3,
+            "teamName": "Tevin Coleman Lives Matter",
+            "owner": "Eric Johnson",
+            "teamId": 3,
+            "wins": 2,
+            "losses": 1,
+            "theme": "Coors Light",
+            "text": "The #2 selling beer in America, Eric's team is right up there by the top.",
+            "imgUrl": ""
+        },
+        {
+            "rank": 4,
+            "teamName": "Grace White Lightning Bolt",
+            "owner": "",
+            "teamId": 4,
+            "wins": 3,
+            "losses": 0,
+            "theme": "Budweiser",
+            "text": "As the only undefeated team in the league, I can't rank Kev lower than 4. I think his team isn't that good, but a W is a W. Just like Budweiser isn't that good of a beer, it still is the 4th best selling domestic beer in the USA.",
+            "imgUrl": ""
+        },
+        {
+            "rank": 5,
+            "teamName": "Let Me Ask My Girlfriend Fist",
+            "owner": "Matt Dexheimer",
+            "teamId": 5,
+            "wins": 1,
+            "losses": 2,
+            "theme": "Michelob Ultra Light",
+            "text": "The little sister beer of the infamous Michelob Golden Draft Light&trade;. Matt's team is better than his record, and he has the hardest SOS currently.",
+            "imgUrl": ""
+        },
+        {
+            "rank": 6,
+            "teamName": "",
+            "owner": "",
+            "teamId": 1,
+            "wins": ,
+            "losses": ,
+            "text": "",
+            "imgUrl": ""
+        },
+        {
+            "rank": 7,
+            "teamName": "",
+            "owner": "",
+            "teamId": 1,
+            "wins": ,
+            "losses": ,
+            "text": "",
+            "imgUrl": ""
+        },
+        {
+            "rank": 8,
+            "teamName": "",
+            "owner": "",
+            "teamId": 1,
+            "wins": ,
+            "losses": ,
+            "text": "",
+            "imgUrl": ""
+        },
+        {
+            "rank": 9,
+            "teamName": "",
+            "owner": "",
+            "teamId": 1,
+            "wins": ,
+            "losses": ,
+            "text": "",
+            "imgUrl": ""
+        },
+        {
+            "rank": 10,
+            "teamName": "",
+            "owner": "",
+            "teamId": 1,
+            "wins": ,
+            "losses": ,
+            "text": "",
+            "imgUrl": ""
+        },
+        {
+            "rank": 11,
+            "teamName": "Rissy Dayz 2k17",
+            "owner": "Jake Trotman",
+            "teamId": 1,
+            "wins": ,
+            "losses": ,
+            "theme": "Natural Ice",
+            "text": "If only I could start the right players each week, I would be a little higher on this list.",
+            "imgUrl": ""
+        },
+        {
+            "rank": 12,
+            "teamName": "Team Gardner",
+            "owner": "David Gardner",
+            "teamId": 12,
+            "wins": 0,
+            "losses": 3,
+            "theme": "Special Export",
+            "text": "Year after year, week after week, david's team continues to suck. When will the suffering end? Will he even set his lineup this week? Maybe David likes Tina's company down at the bottom. That's why he gets Special Export. The single worst beer I have ever tasted in my entire life.",
+            "imgUrl": ""
+        }
+    ],
+    "theme": "Domestic Beers",
+    "weekNumber": 3
+}
