@@ -1,7 +1,7 @@
-var myApp = angular.module('myApp', []);
+var fflApp = angular.module('fflApp', []);
 
 function fflCtrl($scope) {
-    $http.get('week3.json')
+    $http.get('http://trotman23.github.io/ffl/week3.json')
        .then(function(res){
           $scope.ranks = res.data;                
         });
