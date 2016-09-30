@@ -5,15 +5,15 @@
         <link href="../css/ffl.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <div class="container" ng-controller="fflCtrl">
+        <div class="container" ng-controller="MyController">
             <div class="row">
                 <div class="col-md-1">Rank</div>
                 <div class="col-md-2">Team/Owner</div>
                 <div class="col-md-1">W/L</div>
                 <div class="col-md-4">Shittalk</div>
-                <div class="col-md-4">Domestic Beer</div>
+                <div class="col-md-4">Domestic Beer {{$scope.he}}</div>
             </div>
-            <div class="row" ng-repeat="rank in ranks">
+            <div class="row" ng-repeat="rank in $scope.ranks">
                 <div class="col-md-1">{{rank.rank}}</div>
                 <div class="col-md-2">{{rank.teamName}} / {{rank.owner}}</div>
                 <div class="col-md-1">{{rank.wins}}/{{rank.losses}}</div>
@@ -24,7 +24,7 @@
                 </div>
             </div>
         </div>
-        <script src="../js/angular.min.js" type="text/javascript" /></script>
+        <script src="http://code.angularjs.org/snapshot/angular.js"></script>
         <script src="../js/jquery.js" type="text/javascript" /></script>
         <script src="../js/bootstrap.min.js" type="text/javascript" /></script>
         <script src="ffl.js" type="text/javascript" ></script>
